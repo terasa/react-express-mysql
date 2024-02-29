@@ -1,0 +1,342 @@
+repo_name: terasa/react-express-mysql
+report_id: '07409dad4277791f06affad0e53dc149'
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T18:03:48+00:00'
+requested_by: tmcclung
+provider: github
+branch: main
+detected_tools_count: 24
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/terasa/react-express-mysql
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/terasa/react-express-mysql
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/terasa/react-express-mysql/blob/main/backend/package-lock.json
+  detection_source: backend/package.json
+  last_updated_by: Tommy McClung
+  last_updated_on: 2020-10-06 05:09:54.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/terasa/react-express-mysql/blob/main/backend/Dockerfile
+  detection_source: backend/Dockerfile
+  last_updated_by: Tommy McClung
+  last_updated_on: 2020-10-06 05:09:54.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/terasa/react-express-mysql/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Tommy McClung
+  last_updated_on: 2020-10-06 05:09:54.000000000 Z
+- name: Cloud DB for Mysql
+  description: Easily setup and manage the MySQL database service
+  website_url: https://www.ncloud.com/product/database/cloudDbMysql
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: SQL Database as a Service
+  image_url: https://img.stackshare.io/service/21275/default_078eb0ae2b56280a937ed073a3ba4332291f9ba8.png
+  detection_source_url: https://github.com/terasa/react-express-mysql/blob/main/docker-compose.yaml
+  detection_source: docker-compose.yaml
+  last_updated_by: Tommy McClung
+  last_updated_on: 2020-10-06 05:09:54.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/terasa/react-express-mysql/blob/main/backend/package.json
+  detection_source: backend/package.json
+  last_updated_by: Tommy McClung
+  last_updated_on: 2020-10-06 05:09:54.000000000 Z
+- name: Chai
+  description: A BDD / TDD assertion library
+  website_url: http://chaijs.com/
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1725/chai.png
+  detection_source_url: https://github.com/terasa/react-express-mysql/blob/main/backend/package-lock.json
+  detection_source: backend/package.json
+  last_updated_by: Tommy McClung
+  last_updated_on: 2020-10-06 05:09:54.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/terasa/react-express-mysql
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/terasa/react-express-mysql
+  detection_source: Repo Metadata
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 7.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/terasa/react-express-mysql/blob/main/backend/package-lock.json
+  detection_source: backend/package.json
+  last_updated_by: Tommy McClung
+  last_updated_on: 2020-10-06 05:09:54.000000000 Z
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 2.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/terasa/react-express-mysql/blob/main/backend/package-lock.json
+  detection_source: backend/package.json
+  last_updated_by: Tommy McClung
+  last_updated_on: 2020-10-06 05:09:54.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/terasa/react-express-mysql/blob/main/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Tommy McClung
+  last_updated_on: 2020-10-06 05:09:54.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 4.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/terasa/react-express-mysql/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Tommy McClung
+  last_updated_on: 2020-10-06 05:09:54.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 9.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/terasa/react-express-mysql/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Tommy McClung
+  last_updated_on: 2020-10-06 05:09:54.000000000 Z
+- name: chai-http
+  description: Extend Chai Assertion library with tests for http apis
+  package_url: https://www.npmjs.com/chai-http
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16767/default_aa2369d4412b5a2c6812de3c666299e0ccd25ea2.png
+  detection_source_url: https://github.com/terasa/react-express-mysql/blob/main/backend/package-lock.json
+  detection_source: backend/package.json
+  last_updated_by: Tommy McClung
+  last_updated_on: 2020-10-06 05:09:54.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 7.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/terasa/react-express-mysql/blob/main/backend/package-lock.json
+  detection_source: backend/package.json
+  last_updated_by: Tommy McClung
+  last_updated_on: 2020-10-06 05:09:54.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/terasa/react-express-mysql/blob/main/backend/package-lock.json
+  detection_source: backend/package.json
+  last_updated_by: Tommy McClung
+  last_updated_on: 2020-10-06 05:09:54.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+- name: http-proxy-middleware
+  description: The one-liner node.js proxy middleware for connect
+  package_url: https://www.npmjs.com/http-proxy-middleware
+  version: 1.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16167/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/terasa/react-express-mysql/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Tommy McClung
+  last_updated_on: 2020-10-06 05:09:54.000000000 Z
+- name: knex
+  description: A batteries-included SQL query &amp; schema builder for Postgres
+  package_url: https://www.npmjs.com/knex
+  version: 0.20.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16491/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
+  detection_source_url: https://github.com/terasa/react-express-mysql/blob/main/backend/package-lock.json
+  detection_source: backend/package.json
+  last_updated_by: Tommy McClung
+  last_updated_on: 2020-10-06 05:09:54.000000000 Z
+  vulnerabilities:
+  - name: Knex.js has a limited SQL injection vulnerability
+    cve_id: CVE-2016-20018
+    cve_url: https://github.com/advisories/GHSA-4jv9-3563-23j3
+    detected_date: Dec 21
+    severity: high
+    first_patched: 2.4.0
+- name: morgan
+  description: HTTP request logger middleware for node.js
+  package_url: https://www.npmjs.com/morgan
+  version: 1.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16097/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/terasa/react-express-mysql/blob/main/backend/package-lock.json
+  detection_source: backend/package.json
+  last_updated_by: Tommy McClung
+  last_updated_on: 2020-10-06 05:09:54.000000000 Z
+- name: mysql2
+  description: Fast mysql driver
+  package_url: https://www.npmjs.com/mysql2
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16671/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: https://github.com/terasa/react-express-mysql/blob/main/backend/package-lock.json
+  detection_source: backend/package.json
+  last_updated_by: Tommy McClung
+  last_updated_on: 2020-10-06 05:09:54.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/terasa/react-express-mysql/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Tommy McClung
+  last_updated_on: 2020-10-06 05:09:54.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/terasa/react-express-mysql/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: Tommy McClung
+  last_updated_on: 2020-10-06 05:09:54.000000000 Z
